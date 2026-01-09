@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navber{
+    /*border: 1px solid red;*/
+    max-width: 1600px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.navber .nav-image{
+    width:139px;
+    margin-top:20px;
+}
+.navber .menu ul li{
+    list-style-type: none;
+    display: flex;
+}
+.navber .menu .list{
+    display: flex;
+    margin-right: 25px;
+}
+.menu ul li a{
+      text-decoration: none;
+      padding: 25px;
+      color: #000000;
+}
+.btn{
+    background-color: #30b868 ;
+    color:#FFFFFF;
+    max-width: 164hug;
+    font-size: 16px;
+    font-weight: 600;
+    padding:16px 12px ;
+    border-radius: 5px;
+    border: 0px solid #30b868;
+}
+button:hover{
+    background-color: #627382;
+}
+#banner{
+    /*border: 1px solid red;*/
+    background: url("../assets/hero-bg.png");
+    max-width: 1600px;
+    height:674px;
+}
+.banner-content{
+    max-width: 585px;
+    margin: 0 auto;
+}
+.banner-content .btn1{
+    max-width: 183hug;
+    color: #469165;
+    font-size: 16px;
+    background-color: ;
+    border-radius: 40px;
+    border: 1px solid white;
+    padding: 20px 40px;
+    margin-top: 115px;
+    margin-left: 200px;
+    margin-bottom: 16px;
+}
+.banner-content .banner-para h5{
+    align-items: center;
+    font-size: 40px;
+    color:white;
+    margin-left: 150px;
+    margin-bottom: 16px;
+}
+.color-green{
+    color: #30B868;
+}
+.para{
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.banner-button{
+    max-width: 465px;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn2{
+    background-color: #30b868 ;
+    color:#FFFFFF;
+    max-width: 164hug;
+    font-size: 16px;
+    font-weight: 600;
+    padding:16px 8px ;
+    border-radius: 5px;
+    border: 0px solid #30b868;
+    margin-top: 32px;
+    margin-left: 100px;
+}
+/*.banner-button img{
+    width: 20px;
+    height:20px;
+    align-items: center;
+}*/
+.btn3{
+    background-color:transparent;
+    color:#FFFFFF;
+    max-width: 164hug;
+    font-size: 16px;
+    font-weight: 600;
+    padding:16px 10px ;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 32px;
+}
+#main{
+    max-width: 1600px;
+    /*border:1px solid red;*/
+    align-items: center;
+}
+.main-content {
+    text-align: center;
+    margin-top: 40px;
+}
+.main-content h2{
+    font-size: 48px;
+    color:#001931;
+}
+.main-content p{
+    color:#627382;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.main-card{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.main-card .card{
+    max-width: 324px;
+    /*border:1px solid red;*/
+    border-radius: 5px;
+}
+.main-card .card img{
+    width:60px;
+    height:60px;
+    background-color:#F95555;
+    margin: 30px 0px 0px 130px;
+    border-radius: 30px;
+}
+.main-card .card h5{
+    font-size: 24px;
+    color:#001931;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 16px;
+}
+.main-card .card p{
+    line-height: 20px;
+    color:#627382;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+}
+#hero{
+    max-width: 1360px;
+    /*border:1px solid red;*/
+    display: flex;
+    margin: 0 auto;
+}
+/* .hero1{
+    max-width: 1360;
+} */
+ #hero .hero-image img{
+    width:500px;
+    height:500px;
+    margin: 120px 0px 120px 200px;
+    border-radius: 30px;
+ }
+ #hero .hero-content{
+    margin-left: 120px;
+    margin-top: 170px;
+
+ }
+#hero h5{
+    font-size: 16px;
+    line-height: 20px;
+    color:#469165;
+    margin-bottom: 16px;
+}
+#hero .hero-content h3{
+    font-size: 48px;
+    font-weight: 400;
+    color:#001931;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+#hero .hero-content p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color:#627382;
+}
+#hero .hero-content ul{
+    margin-top: 30px;
+}
+#hero .hero-content ul li{
+    list-style: none;
+    
+}
+#hero .hero-content .list-image{
+    margin-top: 10px;
+}
+#hero .hero-content img{
+
+    align-items: center;
+}
+#content{
+    max-width: 1600px;
+     /*border: 1px solid red;*/
+     margin: 0 auto;
+}
+#content .contant-part{
+    max-width: 1360px;
+    text-align: center;
+    background-color: #F7F6F2;
+    margin-left: 100px;
+}
+#content .contant-part h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-top: 80px;
+}
+#content .contant-part p{
+    color:#627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
