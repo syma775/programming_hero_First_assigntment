@@ -237,3 +237,55 @@ button:hover{
     line-height: 24px;
     margin-top: 16px;
 }
+#foot{
+    max-width: 1600px;
+    border: 1px solid red;
+    background-color: #001931;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.footer{
+    max-width: 350px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-image img{
+  width:139px;
+  height: 60px;
+  margin: 20px 70px;
+}
+.icon{
+    margin-left: 1050px;
+}
+.icon-text p{
+    font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+  color: #FFFFFF;
+  display: flex-end;
+  margin-top: 20px;
+}
+.icon ul{
+    display: flex;
+}
+.icon ul li{
+    list-style: none;
+}
+.icon ul li a{
+   width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+}
