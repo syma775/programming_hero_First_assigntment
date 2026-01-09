@@ -263,14 +263,16 @@ button:hover{
   font-weight: bold;
   line-height: 28px;
   color: #FFFFFF;
-  display: flex-end;
   margin-top: 20px;
+  margin-left: 40px;
+
 }
 .icon ul{
     display: flex;
 }
 .icon ul li{
     list-style: none;
+    margin: 5px 4px;
 }
 .icon ul li a{
    width: 32px;
